@@ -1,0 +1,53 @@
+body {
+    
+    background: url(../images/bg-pattern-top.svg) no-repeat;
+    background-size: 50%;
+    background-position: -50px -230px;
+    background-color: #0a9188;
+    /*font-family: 'Inter', sans-serif;*/
+    
+    
+}
+.card {
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    position: relative;
+}
+#profileimg {
+    width: 30%;
+    position:absolute;
+    left: 36%;
+    top: 23%;
+    border-radius: 50%;
+    border: 3px solid white ;
+}
+.card-img-top {
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    margin-bottom: 60px;
+}
+.card-title {
+    text-align: center;
+    font-weight: 100;
+}
+.card-text {
+    text-align: center;
+    font-weight: 100;
+}
+.bold {
+    font-weight: bold;
+}
+.stats {
+    float: left;
+    margin: auto;
+    width: 33%;
+    text-align: center;
+}
+.thin {
+    font-weight: 100;
+}
+footer{
+    text-align: center;
+}
